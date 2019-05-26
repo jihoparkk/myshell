@@ -35,7 +35,7 @@ int main(void)
 	
     	result = strcmp(s,s1);
     	if (result ==0)
-	    return 0;
+	    return 0;    //shell terminate
 
         if (s == NULL) {
             fprintf(stderr, "fgets failed\n");
